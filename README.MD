@@ -87,6 +87,6 @@ When all questions are answered or the timer reaches 0, the game is over, and th
 REFLECTION:
 >Did not get much work time this week, also still struggling with some understanding of javaScript. Will work to refresh myself on everything tomorrow.
 
-Got modal sort-of working, but want it to display one question at a time and preferably when answer is clicked, goes to next question while staying on modal if possible.
+Got modal sort-of working, but want it to display one question at a time and preferably when answer is clicked, goes to next question while staying on modal if possible. Got stuck on that and ended up not working through anything else unfortunately.
 
-Submitting as is, though it is far from complete.
+Submitting as is, though it is far from complete - but my brain is a bit fried this week. Will come back to this later.
