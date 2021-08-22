@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>CODE QUIZ-A-TRON</title>
+</head>
+
+<!--Header, Text, Button-->
+<body class="card">
+    <header class="card-header-fluid">
+        <h1>WELCOME TO THE CODE QUIZ-A-TRON</h1>
+        <h5>Are you ready for a challenge?<br> Let's test your javaScript knowledge... with a timed quiz!</h5>
+        <h6>Click the button below... don't be shy!</h6>
+    </header>
+
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#quiz">I'm ready for the challenge!</button>
+  
+  <!-- MODAL!!-->
+  <div class="modal fade" id="quiz" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">QUIZ-A-TRON</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <div class="qcontainer currentq">
+            <p class="question">Q1</p>
+            <ul class="choices">
+              <li>a</li>
+              <li>b</li>
+              <li>c</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="modal-body">
+          <div class="qcontainer currentq">
+            <p class="question">Q2</p>
+            <ul class="choices">
+              <li>a</li>
+              <li>b</li>
+              <li>c</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="modal-body">
+          <div class="qcontainer currentq">
+            <p class="question">Q3</p>
+            <ul class="choices">
+              <li>a</li>
+              <li>b</li>
+              <li>c</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Next Question</button>
+          </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!--Silly Footer IMG-->
+    <footer class="card-fluid">
+        <img  height="250px" src="./assets/images/angrylaptop.png">
+    </footer>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="./assets/js/script.js"></script>
+
+</html>
